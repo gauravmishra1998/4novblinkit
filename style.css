@@ -1,1 +1,131 @@
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+  }
+  .vertical-line{
+      height:100px;
+      border-left: 1px solid gray;
+  }
+  .delievery>h5{
+      font-weight: 900;
+      margin-top:13px;
+      font-size: 15px;
+      padding-inline: 9px;
+  }
+  .delievery>p{
+      font-size: 13px;
+  }
+  .search-bar{
+      background-color: #f8f8f8;
+      border-radius: 10px;
+      border: 1px solid #f8f8f8 ;
+      padding-inline:10px;
+  }
+  .search-bar>input{
+  width:36vw;
+      height: 35px;
+      border:none;
+      background-color: transparent;
+  }
+  .cart-button{
+      border-radius: 10px;
+      background-color: #0c831f;
+      border:transparent;
+      color:white;
+      font-weight: 500;
+  }
+.paan{
+    width:99vw;
+  margin-inline: 21px;
+}
+.img-row{
+    display: flex;
+    gap:21px;
+    align-items: center;
+    margin-top: 15px;
+    margin-inline: 21px;
+    white-space: nowrap;
+    overflow-x:scroll ;
+}
+.only-img{
+    width: 335px;
+    height: 195px;
+}
+.sec-3-row>img{
+    width: 111px;
+    height: 159px;
+}
+.sec-3-row{
+    display: flex;
+    gap: 26.5px;
+    margin-top: 31px;
+    margin-inline: 31px;
+}
+.cards-row{
+    display: flex;
+    margin-left: 31px;
+    gap: 21px;
+    white-space: nowrap;
+    overflow-x:scroll ;
+}
+.card-1{
+    width: 179px;
+    height: 299px;
+    border: 1px solid gray ;
+    padding-block: 2px;
+    padding-inline: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-sizing: border-box;
+    border-radius: 15px ;
+    white-space: wrap;
+}
+.rupee{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.rupee>p{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+.card-1>p{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+.card-1>h5{
+    color: rgb(31, 31, 31);
+    font-weight: 600px;
+    font-size: 13px;
+}
+.text-muted{
+color: rgb(31, 31, 31);
+font-weight: 600;
+font-size: 12px;
+}
+
+{}
+.add{
+    cursor: pointer;
+    width: 66px;
+    border: 1px solid rgb(49, 134, 22);
+    height: 31px;
+    color: rgb(49, 134, 22);
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Okra;
+    background-color: rgb(247, 255, 249);
+    border-radius: 7px;
+}
+.foot-1{
+    flex: 2;
+}
+.foot-2{
+    flex: 3;
+}
 
